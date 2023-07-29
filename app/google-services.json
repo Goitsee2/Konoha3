@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116184616067",
+    "project_id": "hackathon-d6039",
+    "storage_bucket": "hackathon-d6039.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116184616067:android:b038ce5c05593dd53b9fb6",
+        "android_client_info": {
+          "package_name": "com.example.edugive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116184616067-7ivg3ulsuqqokh3bflmb23cjubanucfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJW_AJ346IN9y20yJPUq1C0fN0zu0f6_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116184616067-7ivg3ulsuqqokh3bflmb23cjubanucfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
