@@ -5,4 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/school_homepage"
-    tools:context=".School"/>
+    tools:context=".School">
+
+    <EditText
+        android:id="@+id/needs"
+        android:layout_width="293dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="88dp"
+        android:text="PLEASE WRITE BELOW WHAT THE SCHOOL NEEDS AND HOW MUCH"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="178dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:text="LOCATION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/needs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
