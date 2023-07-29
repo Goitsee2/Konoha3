@@ -21,6 +21,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SignUp extends AppCompatActivity {
+    Button reg;
+
+public class SignUp extends AppCompatActivity {
     FirebaseFirestore firestore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +70,14 @@ public class SignUp extends AppCompatActivity {
                 });
 
 
+
+
+        reg = findViewById(R.id.button2);
+
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignUp.this, MainActivity.class);
             }
         });
     }
